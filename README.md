@@ -6,7 +6,7 @@ Este proyecto aborda la **bioacústica aplicada a la clasificación de anfibios*
 Se procesó un conjunto de **4300 audios**, aplicando pipelines de **ETL de señales acústicas** y extrayendo **coeficientes cepstrales en la escala Mel (MFCC)** como características principales.  
 
 ## ⚙️ Tareas realizadas
-- Procesamiento y limpieza de un dataset de 4300 audios de *Boana riojana*.
+- Procesamiento y limpieza de un dataset de 4300 audios: 2120 de Boana riojana y 2180 de ruido ambiental.
 - Diseño de **pipelines ETL** : extracción, control de calidad, balanceo y normalización de señales.
 - Extracción de características acústicas mediante **MFCC**.  
 - Diseño y entrenamiento de modelos de **Deep Learning** (DNN, CNN y LSTM).  
@@ -22,7 +22,7 @@ Se procesó un conjunto de **4300 audios**, aplicando pipelines de **ETL de señ
 
 ## 📊 Resultados
 - El modelo **CNN** alcanzó la mejor exactitud (97%).  
-- Los modelos **DNN y LSTM** también presentaron métricas sólidas, con precisiones > 0.89.  
+- Los modelos **DNN y LSTM** también presentaron métricas sólidas, con precisiones > 89%.  
 
 ## 🚀 Estructura del repositorio
 - `frog-call-classification.ypnb` → Notebooks con el preprocesamiento y entrenamiento del modelo CNN.  
