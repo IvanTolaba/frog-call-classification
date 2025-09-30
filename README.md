@@ -6,7 +6,8 @@ Este proyecto aborda la **bioacústica aplicada a la clasificación de anfibios*
 Se procesó un conjunto de **4300 audios**, aplicando pipelines de **ETL de señales acústicas** y extrayendo **coeficientes cepstrales en la escala Mel (MFCC)** como características principales.  
 
 ## ⚙️ Tareas realizadas
-- Procesamiento y limpieza de un dataset de 4300 audios de *Boana riojana*.  
+- Procesamiento y limpieza de un dataset de 4300 audios de *Boana riojana*.
+- Diseño de **pipelines ETL** : extracción, control de calidad, balanceo y normalización de señales.
 - Extracción de características acústicas mediante **MFCC**.  
 - Diseño y entrenamiento de modelos de **Deep Learning** (DNN, CNN y LSTM).  
 - Evaluación del rendimiento de los modelos, obteniendo:
@@ -24,13 +25,15 @@ Se procesó un conjunto de **4300 audios**, aplicando pipelines de **ETL de señ
 - Los modelos **DNN y LSTM** también presentaron métricas sólidas, con precisiones > 0.89.  
 
 ## 🚀 Estructura del repositorio
-- `notebooks/` → Jupyter Notebooks con el preprocesamiento y entrenamiento.  
-- `data/` → (No incluido por tamaño, pero se puede solicitar o recrear).  
-- `models/` → Modelos entrenados en formato `.h5`.  
-- `README.md` → Este documento.  
+- `frog-call-classification.ypnb` → Notebooks con el preprocesamiento y entrenamiento del modelo CNN.  
+- `data/` → (No incluido por tamaño y privacidad).    
+- `README.md` 
 
-## 📈 Ejemplo de espectrograma MFCC
-![Ejemplo MFCC](ruta/a/ejemplo_mfcc.png)
+---
 
-## 👨‍💻 Autor
-Proyecto desarrollado por *[Tu Nombre]* en el marco de estudios en **Bioingeniería e Inteligencia Artificial aplicada a bioacústica**.
+## 📌 Autor  
+👨‍💻 Iván Tolaba  
+Data Science & Deep Learning aplicado a señales bioacústicas.   
+
+🔗 [LinkedIn](https://www.linkedin.com/in/iv%C3%A0n-tolaba-b161927b) | [Portfolio Web](https://ivantolaba.github.io/Portfolio-IA) | Email: ivn.tlb@gmail.com  
+
